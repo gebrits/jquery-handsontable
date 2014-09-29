@@ -1,16 +1,29 @@
 {
   "name": "handsontable",
   "version": "0.11.3",
-  "main": ["./dist/jquery.handsontable.full.js", "./dist/jquery.handsontable.full.css"],
+  "main": [
+    "./dist/jquery.handsontable.full.js",
+    "./dist/jquery.handsontable.full.css"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
+    "components",
+    "bower_components",
+    "demo/bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "jquery": ">=1.9.0"
   },
   "devDependencies": {
     "chroma-js": "~0.5.6"
-  }
+  },
+  "homepage": "https://github.com/gebrits/jquery-handsontable",
+  "authors": [
+    "Geert-Jan Brits <geertjan@clearskyabove.com>"
+  ],
+  "license": "MIT",
+  "private": true
 }
